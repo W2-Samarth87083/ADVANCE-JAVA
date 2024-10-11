@@ -1,0 +1,72 @@
+package com.sunbeam;
+
+import java.sql.Date;
+import java.util.List;
+import java.util.Scanner;
+
+public class JdbcBookshopMain {
+	public static void main(String[] args) {
+		/*
+		 * // input values from user and then set in book object Book b = new Book(43,
+		 * "UNIX INTERNALS", "URESH", "OS", 544.20); try(BookDao bookDao = new
+		 * BookDao()) { int cnt = bookDao.update(b);
+		 * System.out.println("Updated Books: " + cnt); } catch (Exception e) {
+		 * e.printStackTrace(); }
+		 */
+		/*
+		 * try(BookDao bookDao = new BookDao()) { List<Book> list = bookDao.findAll();
+		 * for (Book bk : list) System.out.println(bk); } // bookDao.close(); catch
+		 * (Exception e) { e.printStackTrace(); }
+		 */
+		/*
+		 * try(BookDao bookDao = new BookDao()) { List<String> list =
+		 * bookDao.findAllSubjects(); System.out.println(list); } // bookDao.close();
+		 * catch (Exception e) { e.printStackTrace(); }
+		 */
+		/*
+		 * try(CustomerDao custDao = new CustomerDao()) { Customer c =
+		 * custDao.findByEmail("nilesh@sunbeaminfo.com"); if(c != null)
+		 * System.out.println("Found " + c); else
+		 * System.out.println("Customer Not Found."); } catch (Exception e) {
+		 * e.printStackTrace(); }
+		 */
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Name: ");
+		String name = sc.nextLine();
+		System.out.print("Address: ");
+		String address = sc.nextLine();
+		System.out.print("Email: ");
+		String email = sc.next();
+		System.out.print("Mobile: ");
+		String mobile = sc.next();
+		System.out.print("Password: ");
+		String password = sc.next();
+		System.out.print("Birth (yyyy-MM-dd): ");
+		String birth = sc.next();
+		Date birthDate = Date.valueOf(birth);
+		Customer newCust = new Customer(0, name, password, email, address, mobile, birthDate);
+		try (CustomerDao custDao = new CustomerDao()) {
+			int count = custDao.save(newCust);
+			System.out.println("Customers Saved: " + count);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		sc.close();
+
+		Scanner sc = new Scanner(System.in);
+		 
+		do {
+			choice = sc.next();
+		switch (choice) {
+		case 1: {
+
+			
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + key);
+		}
+		
+		}
+	}
+		
+}
