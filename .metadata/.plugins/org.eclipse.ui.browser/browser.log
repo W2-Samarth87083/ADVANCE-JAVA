@@ -1,117 +1,62 @@
 
-Oct 11, 2024 16:37:34.711 NEW SESSION
-Oct 11, 2024 16:37:34.711 [1748:5372:1011/163734.709:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-Oct 11, 2024 16:37:34.765 [1748:5432:1011/163734.765:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for mtalk.google.com failed:
-Oct 11, 2024 16:37:34.765 ----- Certificate i=0 (CN=*.google.com) -----
-Oct 11, 2024 16:37:34.766 ERROR: No matching issuer found
-Oct 11, 2024 16:37:34.766 
-Oct 11, 2024 16:37:34.767 
-Oct 11, 2024 16:37:34.768 [1748:5372:1011/163734.765:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 16:37:34.899 Created TensorFlow Lite XNNPACK delegate for CPU.
-Oct 11, 2024 16:37:57.200 [1748:5372:1011/163757.200:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-Oct 11, 2024 16:38:04.674 [1748:5432:1011/163804.674:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for mtalk.google.com failed:
-Oct 11, 2024 16:38:04.674 ----- Certificate i=0 (CN=*.google.com) -----
-Oct 11, 2024 16:38:04.675 ERROR: No matching issuer found
-Oct 11, 2024 16:38:04.675 
-Oct 11, 2024 16:38:04.675 
-Oct 11, 2024 16:38:04.676 [1748:5372:1011/163804.674:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 16:38:34.545 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
-Oct 11, 2024 16:38:50.209 [1748:5372:1011/163850.208:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 16:38:51.214 [1748:5372:1011/163851.213:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-Oct 11, 2024 16:40:47.423 [1748:5372:1011/164047.423:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-Oct 11, 2024 16:40:49.847 [1748:5372:1011/164049.846:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 16:43:32.447 [1748:5372:1011/164332.447:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 16:44:16.358 [1748:5372:1011/164416.357:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-Oct 11, 2024 16:47:06.447 [10412:5524:1011/164706.446:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-Oct 11, 2024 16:47:06.464 [10412:264:1011/164706.463:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for mtalk.google.com failed:
-Oct 11, 2024 16:47:06.464 ----- Certificate i=0 (CN=*.google.com) -----
-Oct 11, 2024 16:47:06.465 ERROR: No matching issuer found
-Oct 11, 2024 16:47:06.465 
-Oct 11, 2024 16:47:06.466 
-Oct 11, 2024 16:47:06.466 [10412:5524:1011/164706.464:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 16:47:06.599 Created TensorFlow Lite XNNPACK delegate for CPU.
-Oct 11, 2024 16:47:48.628 [16532:11412:1011/164748.628:ERROR:interface_endpoint_client.cc(725)] Message 0 rejected by interface blink.mojom.WidgetHost
+Oct 12, 2024 22:27:56.771 NEW SESSION
+Oct 12, 2024 22:27:56.771 [13900:2284:1012/222756.769:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 12, 2024 22:27:57.273 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 12, 2024 22:28:23.11 [13900:2284:1012/222823.010:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 12, 2024 22:28:24.872 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Oct 12, 2024 22:29:11.612 [13900:2284:1012/222911.612:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 12, 2024 22:30:32.366 [13900:2284:1012/223032.366:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 12, 2024 22:31:45.475 [16412:1064:1012/223145.474:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 12, 2024 22:31:45.873 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 12, 2024 22:31:55.24 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Oct 12, 2024 22:32:06.451 [16412:1064:1012/223206.451:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 12, 2024 22:32:59.34 [16412:1064:1012/223259.034:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 12, 2024 22:34:55.284 [16412:1064:1012/223455.284:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 12, 2024 22:38:47.370 [16412:1064:1012/223847.369:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 12, 2024 22:46:22.869 [16412:1064:1012/224622.868:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
 
-Oct 11, 2024 17:54:08.479 NEW SESSION
-Oct 11, 2024 17:54:08.479 [4628:7092:1011/175408.477:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for mtalk.google.com failed:
-Oct 11, 2024 17:54:08.479 ----- Certificate i=0 (CN=*.google.com) -----
-Oct 11, 2024 17:54:08.480 ERROR: No matching issuer found
-Oct 11, 2024 17:54:08.480 
-Oct 11, 2024 17:54:08.481 
-Oct 11, 2024 17:54:08.481 [4628:10956:1011/175408.478:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 17:54:08.583 [4628:10956:1011/175408.582:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-Oct 11, 2024 17:54:08.630 Created TensorFlow Lite XNNPACK delegate for CPU.
-Oct 11, 2024 17:54:39.706 [2912:15072:1011/175439.706:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for mtalk.google.com failed:
-Oct 11, 2024 17:54:39.706 ----- Certificate i=0 (CN=*.google.com) -----
-Oct 11, 2024 17:54:39.707 ERROR: No matching issuer found
-Oct 11, 2024 17:54:39.708 
-Oct 11, 2024 17:54:39.709 
-Oct 11, 2024 17:54:39.710 [2912:12476:1011/175439.707:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 17:54:39.728 Created TensorFlow Lite XNNPACK delegate for CPU.
-Oct 11, 2024 17:54:39.755 [2912:12476:1011/175439.754:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-Oct 11, 2024 17:55:01.887 [2912:15072:1011/175501.886:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for mtalk.google.com failed:
-Oct 11, 2024 17:55:01.889 ----- Certificate i=0 (CN=*.google.com) -----
-Oct 11, 2024 17:55:01.890 ERROR: No matching issuer found
-Oct 11, 2024 17:55:01.892 
-Oct 11, 2024 17:55:01.893 
-Oct 11, 2024 17:55:01.894 [2912:12476:1011/175501.888:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 17:55:03.99 [2912:12476:1011/175503.099:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-Oct 11, 2024 17:55:33.619 [2912:15072:1011/175533.619:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for td.doubleclick.net failed:
-Oct 11, 2024 17:55:33.620 ----- Certificate i=0 (CN=*.doubleclick.net) -----
-Oct 11, 2024 17:55:33.621 ERROR: No matching issuer found
-Oct 11, 2024 17:55:33.623 
-Oct 11, 2024 17:55:33.623 
-Oct 11, 2024 17:55:33.885 [2912:15072:1011/175533.885:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for googleads.g.doubleclick.net failed:
-Oct 11, 2024 17:55:33.886 ----- Certificate i=0 (CN=*.g.doubleclick.net) -----
-Oct 11, 2024 17:55:33.886 ERROR: No matching issuer found
-Oct 11, 2024 17:55:33.887 
-Oct 11, 2024 17:55:33.887 
-Oct 11, 2024 17:55:47.46 [2912:12476:1011/175547.046:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 17:55:48.254 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
-Oct 11, 2024 17:55:51.84 [2912:12476:1011/175551.083:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-Oct 11, 2024 17:57:01.289 [2912:15072:1011/175701.289:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for chat.openai.com failed:
-Oct 11, 2024 17:57:01.290 ----- Certificate i=0 (CN=chat.openai.com) -----
-Oct 11, 2024 17:57:01.290 ERROR: No matching issuer found
-Oct 11, 2024 17:57:01.291 
-Oct 11, 2024 17:57:01.291 
-Oct 11, 2024 17:57:27.714 [2912:12476:1011/175727.713:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-Oct 11, 2024 17:57:33.388 [2912:12476:1011/175733.387:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 17:57:35.702 [2912:17704:1011/175735.701:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for ssl.google-analytics.com failed:
-Oct 11, 2024 17:57:35.702 ----- Certificate i=0 (CN=*.google-analytics.com) -----
-Oct 11, 2024 17:57:35.703 ERROR: No matching issuer found
-Oct 11, 2024 17:57:35.703 
-Oct 11, 2024 17:57:35.704 
-Oct 11, 2024 18:00:57.664 [2912:12476:1011/180057.663:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 18:01:00.302 [2912:12476:1011/180100.301:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-Oct 11, 2024 18:06:38.307 [2912:12476:1011/180638.306:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 18:07:37.52 [2912:12476:1011/180737.051:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-Oct 11, 2024 18:16:38.542 [2912:12476:1011/181638.542:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 18:26:38.738 [2912:15072:1011/182638.737:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for mtalk.google.com failed:
-Oct 11, 2024 18:26:38.738 ----- Certificate i=0 (CN=*.google.com) -----
-Oct 11, 2024 18:26:38.739 ERROR: No matching issuer found
-Oct 11, 2024 18:26:38.739 
-Oct 11, 2024 18:26:38.739 
-Oct 11, 2024 18:26:38.739 [2912:12476:1011/182638.738:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 18:36:38.913 [2912:12476:1011/183638.912:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 18:46:39.92 [2912:12476:1011/184639.092:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 18:56:20.932 [2912:12476:1011/185620.931:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 18:56:23.392 [2912:12476:1011/185623.392:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 18:56:31.637 [2912:15072:1011/185631.637:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for mtalk.google.com failed:
-Oct 11, 2024 18:56:31.638 ----- Certificate i=0 (CN=*.google.com) -----
-Oct 11, 2024 18:56:31.638 ERROR: No matching issuer found
-Oct 11, 2024 18:56:31.639 
-Oct 11, 2024 18:56:31.639 
-Oct 11, 2024 18:56:31.640 [2912:12476:1011/185631.638:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 18:56:31.706 [2912:12476:1011/185631.705:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-Oct 11, 2024 18:56:39.234 [2912:15072:1011/185639.234:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for mtalk.google.com failed:
-Oct 11, 2024 18:56:39.235 ----- Certificate i=0 (CN=*.google.com) -----
-Oct 11, 2024 18:56:39.235 ERROR: No matching issuer found
-Oct 11, 2024 18:56:39.236 
-Oct 11, 2024 18:56:39.236 
-Oct 11, 2024 18:56:39.236 [2912:12476:1011/185639.235:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 18:56:53.266 [2912:12476:1011/185653.266:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-Oct 11, 2024 18:56:57.404 [2912:12476:1011/185657.403:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 18:57:48.208 [2912:12476:1011/185748.207:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
-Oct 11, 2024 18:57:51.751 [2912:12476:1011/185751.750:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-Oct 11, 2024 18:59:39.433 [2912:12476:1011/185939.432:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
-Oct 11, 2024 18:59:45.240 [2912:12476:1011/185945.240:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
+Oct 13, 2024 15:35:35.206 NEW SESSION
+Oct 13, 2024 15:35:35.207 [9564:5968:1013/153535.205:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 15:35:35.792 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 13, 2024 15:36:27.355 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 13, 2024 15:36:27.621 [19708:3340:1013/153627.621:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 15:36:48.710 [19708:3340:1013/153648.709:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 15:37:33.166 [19708:3340:1013/153733.166:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 15:38:58.96 [19708:3340:1013/153858.095:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 15:39:26.260 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Oct 13, 2024 15:42:10.120 [19708:3340:1013/154210.120:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 15:47:45.370 [19708:3340:1013/154745.370:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 15:50:53.233 [13736:2420:1013/155053.233:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 15:50:53.286 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 13, 2024 15:57:13.419 [14532:15584:1013/155713.418:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 15:57:13.483 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 13, 2024 15:57:35.311 [14532:15584:1013/155735.311:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 15:57:43.564 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Oct 13, 2024 15:58:27.37 [14532:15584:1013/155827.037:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 16:00:02.32 [14532:15584:1013/160002.031:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 16:03:22.525 [14532:15584:1013/160322.525:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 16:10:33.286 [14532:15584:1013/161033.286:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 17:01:24.48 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 13, 2024 17:02:28.93 [6056:19396:1013/170228.092:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Oct 13, 2024 17:02:28.289 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 13, 2024 17:02:48.343 [6056:19396:1013/170248.343:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Oct 13, 2024 17:03:01.505 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Oct 13, 2024 17:03:29.722 [6056:19396:1013/170329.721:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Oct 13, 2024 17:32:15.198 [13476:9312:1013/173215.198:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Oct 13, 2024 17:32:15.448 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 13, 2024 17:34:03.815 [12984:16108:1013/173403.815:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Oct 13, 2024 17:34:04.118 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 13, 2024 17:34:32.819 [12984:16108:1013/173432.818:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Oct 13, 2024 17:34:37.148 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Oct 13, 2024 17:35:20.342 [12984:16108:1013/173520.342:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Oct 13, 2024 17:37:04.104 [12984:16108:1013/173704.104:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Oct 13, 2024 17:40:29.872 [12984:16108:1013/174029.872:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Oct 13, 2024 17:43:37.703 [5368:15232:1013/174337.702:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 17:43:38.04 Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 13, 2024 17:44:03.144 [5368:15232:1013/174403.143:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 17:44:10.415 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Oct 13, 2024 17:44:52.445 [5368:15232:1013/174452.445:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 17:46:39.385 [5368:15232:1013/174639.385:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 17:46:48.732 [5368:15232:1013/174648.731:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 17:47:15.390 [5368:15232:1013/174715.390:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 17:48:01.789 [5368:15232:1013/174801.789:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
