@@ -60,3 +60,5 @@ Oct 13, 2024 17:46:39.385 [5368:15232:1013/174639.385:ERROR:registration_request
 Oct 13, 2024 17:46:48.732 [5368:15232:1013/174648.731:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
 Oct 13, 2024 17:47:15.390 [5368:15232:1013/174715.390:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
 Oct 13, 2024 17:48:01.789 [5368:15232:1013/174801.789:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 17:49:31.981 [5368:15232:1013/174931.980:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Oct 13, 2024 17:49:48.777 [5368:15232:1013/174948.777:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
